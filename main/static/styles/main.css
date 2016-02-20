@@ -1,0 +1,83 @@
+#mainphotodiv {
+    box-shadow: inset 300px 0 100px 100px rgb(0, 128, 128);
+    margin-right: 30px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 128, 128);
+}
+
+}
+
+
+h1 {
+    color: rgb(255, 69, 0);
+}
+
+h3 {
+    color: rgb(255, 69, 0);
+    background-color: white;
+    box-shadow: inset 0px 0px 20px 20px rgb(0, 128, 128);
+    box-shadow: 0px 0px 20px 20px rgb(0, 128, 128);
+    overflow: hidden;
+    position: relative;
+    z-index: -10;
+    border-radius: 20px;
+}
+
+.center-all {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.space {
+    margin-top: 20px;
+}
+
+.foot {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.mainphotodiv {
+    width: 720px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: inset 0px 0px 75px 75px rgb(0, 128, 128);
+}
+
+
+.mainphoto {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -10;
+}
+
+
+#nav {
+    height: 900px;
+    background: -webkit-linear-gradient(left, #2f4f4f, silver, #2f4f4f, black);
+    background: -o-linear-gradient(right, #2f4f4f, silver, #2f4f4f, black);
+    background: -moz-linear-gradient(right, #2f4f4f, silver, #2f4f4f, black);
+    background: linear-gradient(to right, #2f4f4f, silver, #2f4f4f, black);
+    box-shadow: 30px 20px 10px 5px rgb(0, 50, 50);
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 300px;
+    position: relative;
+    z-index: 10;
+}

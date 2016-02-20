@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+    {% block headtitle %}
+    <title>
+        Testimonials
+    </title>
+    {% endblock headtitle %}
+    
+    {% block maincontent %}
+    <div class="col-xs-9">
+    <div class="jumbotron" style="margin-left: 10%; margin-top: 10%; height: 500px;">
+        <h2>Testimonials</h2>
+        <!-- rotating marquee -->
+        <ul id="queue" style="padding: 10px;">
+            <li class="queue_item" style="margin: 20px; display: none; padding: 10px;">
+                <h3>Mauris dignissim ipsum non laoreet eleifend. Suspendisse facilisis bibendum enim in malesuada. In quis 
+                lacinia augue. In blandit ante rhoncus, tincidunt nibh dapibus, suscipit lorem. Phasellus ullamcorper nisl 
+                sem, tristique lobortis dui malesuada eu. Donec sit amet suscipit arcu, nec maximus eros. Sed tempus dui neque, 
+                id finibus ante euismod et. Cras accumsan aliquam semper. Nullam pretium sagittis cursus. Nulla finibus elit mi, 
+                nec consequat dui hendrerit vitae. Mauris et ornare diam, posuere blandit justo.</h3>
+                <p>
+                    - Customer #1
+                </p>
+            </li>
+            <li class="queue_item" style="margin: 20px; display: none; padding: 10px;">
+                <h3>Vivamus vel velit urna. Proin volutpat turpis ut ornare cursus. Morbi sed mi at nisi ultricies finibus eu 
+                at diam. Nunc sem lectus, rhoncus non erat ut, tincidunt viverra eros. Pellentesque bibendum nisi laoreet nunc 
+                imperdiet, bibendum fermentum enim elementum. Quisque id aliquet dolor. Sed maximus diam vitae mollis dapibus. 
+                Vestibulum consectetur dapibus lacinia. Phasellus egestas sollicitudin sapien, ac posuere ligula fermentum nec. 
+                Phasellus sit amet eros sit amet lectus gravida bibendum. Aliquam vel orci ac arcu efficitur lobortis id elementum 
+                lectus.</h3>
+                <p>
+                    - Customer #2
+                </p>
+            </li>
+            <li class="queue_item" style="margin: 20px; display: none; padding: 10px;">
+                <h3>Etiam sed libero ante. In elementum tempus erat, nec elementum augue dictum eget. Donec vestibulum interdum 
+                faucibus. Maecenas gravida eros non leo pellentesque accumsan. Aliquam erat volutpat. Mauris ac nisl libero. 
+                Vestibulum mattis, velit id lacinia rhoncus, lectus mauris tincidunt ex, id tristique ante nunc nec nisl. Curabitur 
+                in posuere est. Quisque dolor augue, tempor in turpis eget, pretium facilisis lacus. Vestibulum ante ipsum primis in 
+                faucibus orci luctus et ultrices posuere cubilia Curae;</h3>
+                <p>
+                    - Vendor #1
+                </p>
+            </li>
+            <li class="queue_item" style="margin: 20px; display: none; padding: 10px;">
+                <h3>Suspendisse semper volutpat massa ut semper. Nunc a imperdiet ex. Nulla ultricies nisi mauris, eu ultricies erat 
+                hendrerit id. Pellentesque felis elit, aliquam id nisi sit amet, sodales maximus massa. Nulla dictum lacinia ante vel 
+                aliquet. Nulla facilisi. Morbi ac felis in felis venenatis luctus in sit amet lectus. Cras hendrerit in ipsum sit amet 
+                ornare. Donec a tincidunt eros. Integer vel egestas nibh.</h3>
+                <p>
+                    - Customer #3
+                </p>
+            </li>
+            <li class="queue_item" style="margin: 20px; display: none; padding: 10px;">
+                <h3>Fusce eleifend augue in turpis cursus, ac sagittis risus malesuada. Aenean elementum tincidunt elementum. Praesent sit 
+                amet suscipit turpis. Phasellus ac odio volutpat, fringilla dolor at, facilisis tellus. Etiam blandit nibh vel risus facilisis, 
+                at consequat mauris cursus. Nam finibus lorem et sodales vehicula. Cras at mattis ex. Nullam porttitor scelerisque quam, at 
+                maximus sem rhoncus nec.</h3>
+                <p>
+                    - Vendor #2
+                </p>
+            </li>
+            <li class="queue_item" style="margin: 20px; display: none; padding: 10px;">
+                <h3>In vitae ipsum posuere urna varius pharetra in in sapien. Fusce congue, ante sit amet viverra tincidunt, nibh tortor 
+                tempor elit, in pellentesque orci nisi venenatis sem. Phasellus id libero at enim hendrerit congue id et velit. Morbi mattis 
+                orci vel ornare lacinia. Nullam ligula neque, iaculis ut lobortis eget, tincidunt a velit. Suspendisse commodo gravida leo 
+                at ultricies. Morbi in ornare nisl. Praesent cursus dolor a mi blandit, ut semper eros sagittis. Cras volutpat at elit ut 
+                viverra. Duis egestas nulla vel turpis cursus, in pulvinar elit sodales.</h3>
+                <p>
+                    - Vendor #3
+                </p>
+            </li>
+            <li class="queue_item" style="margin: 20px; display: none; padding: 10px;">
+                <h3>Morbi interdum fringilla lectus vel pulvinar. Pellentesque porta mi eget lectus volutpat, sed sollicitudin 
+                est iaculis. Nulla at volutpat dolor. Sed nec nisl placerat, rhoncus nisi ac, consequat ex. Ut ullamcorper tempus 
+                augue sed aliquet. Nam pharetra quis lacus id viverra. Vestibulum non nisi a nisi luctus interdum. Nunc venenatis 
+                nisi lacus, quis dapibus nisl hendrerit sed. Etiam volutpat nec massa sed posuere. Aliquam ac tincidunt felis, ut 
+                finibus nisl.</h3>
+                <p>
+                    - Customer #4
+                </p>
+            </li>
+            <li class="queue_item" style="margin: 20px; display: none; padding: 10px;">
+                <h3>Nunc consequat ultricies augue luctus convallis. Donec urna sapien, malesuada in lorem non, efficitur egestas diam. 
+                Duis cursus ipsum nec scelerisque bibendum. Sed consequat purus est, ut luctus augue faucibus sit amet. Nulla sollicitudin 
+                est ac lacus aliquet, et ornare purus sagittis. Mauris in libero facilisis velit eleifend commodo. Phasellus semper feugiat 
+                nisl ac molestie. In ut justo nibh. Nullam placerat sapien id sagittis tincidunt. Cras gravida arcu quis enim euismod auctor.</h3>
+                <p>
+                    -Vendor #4
+                </p>
+            </li>
+        </ul>
+      </div>
+      </div>
+    {% endblock maincontent %}
+    
+    {% block postscripts %}
+    {{ block.super }}
+    <script src="static/testimonials.js"></script>
+    {% endblock postscripts %}
